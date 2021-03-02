@@ -9,11 +9,6 @@ import ICredentials from '../interfaces/user/Credentials';
 const router = Router();
 const database = new Database();
 
-
-router.get('/', (req, res) => {
-    return res.send('Hello Register');
-});
-
 router.post('/', async (req, res) => {
     const { email, password }: ICredentials = req.body;
 
