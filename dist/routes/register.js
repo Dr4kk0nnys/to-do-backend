@@ -9,9 +9,6 @@ const database_1 = __importDefault(require("../utils/database/database"));
 const session_1 = __importDefault(require("../utils/session"));
 const router = express_1.Router();
 const database = new database_1.default();
-router.get('/', (req, res) => {
-    return res.send('Hello Register');
-});
 router.post('/', async (req, res) => {
     const { email, password } = req.body;
     /**
