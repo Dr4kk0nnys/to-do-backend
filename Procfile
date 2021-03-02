@@ -1,0 +1,1 @@
+web: yarn tsc -p tsconfig.json && node dist/server.js
