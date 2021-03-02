@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn tsc -p tsconfig.json && node dist/server.js"
+    "start": "node dist/server.js"
   },
   "devDependencies": {
     "ts-node-dev": "^1.1.1",

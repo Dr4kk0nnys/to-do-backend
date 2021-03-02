@@ -14,7 +14,7 @@ const dotenv_1 = require("dotenv");
 **/
 dotenv_1.config();
 const app = express_1.default();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 /* Custom express configuration */
 app.use(cors_1.default());
 app.use(express_1.default.json());
