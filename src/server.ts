@@ -29,4 +29,4 @@ app.use('/login', login);
 app.use('/to-dos', toDos);
 
 /* Port should come from heroku */
-app.listen(PORT, () => console.log('\x1b[35m%s\x1b[0m', `Server listening on http://localhost:${PORT}`));
+app.listen(PORT || 8000, () => console.log('\x1b[35m%s\x1b[0m', `Server listening on http://localhost:${PORT || 8000}`));

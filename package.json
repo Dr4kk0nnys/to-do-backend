@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node dist/server.js"
+  },
   "devDependencies": {
     "dotenv": "^8.2.0",
     "ts-node-dev": "^1.1.1",
